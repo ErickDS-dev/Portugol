@@ -1,0 +1,22 @@
+// Taboada Em Portugol Studio
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador,limite,resultado,tabuada
+
+		contador = 0
+		
+		escreva("Qual o multiplicador da tabuada?" + "\n")
+		leia(tabuada)
+		escreva("Qual o o multiplicando da tabuada?" + "\n")
+		leia(limite)
+		faca{
+			resultado = tabuada * contador
+			escreva(tabuada + " x " + contador + " = " + resultado + "\n")
+			contador ++
+			}enquanto (contador<=limite)
+	}
+}
