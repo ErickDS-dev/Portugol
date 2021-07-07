@@ -1,0 +1,15 @@
+// Exemplo de uso de Matriz
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador = 0
+		cadeia cestas[][]={{"Pera","100"},{"Jaca","200"},{"Maçã","900"},{"Uva","89"}}
+		
+		faca{
+			escreva("Produto: " + cestas[contador][0] + " Quantidade: " + cestas[contador][1] + "\n")
+			contador ++
+			}enquanto(contador<=3)
+	}
+}
