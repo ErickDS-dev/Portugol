@@ -1,0 +1,15 @@
+//Usando Matriz para um exemplo de estoque
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia cadastro[][]={{"João","São Paulo","(11) 9999-5241"},{"Maria","Ribeirão Preto","(16) 99999-8596"},{"Ana","Manaus","(92) 9999-8574"}}
+		inteiro contador = 0
+		faca{
+			escreva("Nome: " + cadastro[contador][0] + " Cidade: " + cadastro[contador][1] + " Telefone: " + cadastro[contador][2] + "\n")
+			contador ++
+			}enquanto(contador<=2)
+	}
+
+}
